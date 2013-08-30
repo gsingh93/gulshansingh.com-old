@@ -1,0 +1,15 @@
+<!-- use full url including 'index.html' for navigation bar if you are using ajax -->
+<ul id="nav">
+	<li><a href="{{ root_url }}/">Home</a></li>
+	<li><a href="{{ root_url }}/projects/">Projects</a></li>
+	<li><a href="http://brodoyouevencode.com">Blog</a></li>
+    {% if site.simple_search %}
+    <li>
+    <div id="dark">
+        <form method="get" action="{{ root_url }}/search.html" id="search">
+            <input name="query" type="text" placeholder="Search..." x-webkit-speech />
+        </form>
+    </div>
+    </li>
+    {% endif %}    
+</ul>
