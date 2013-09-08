@@ -19,3 +19,20 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+body {
+    font-family: 'Century Gothic', 'Helvetica', sans-serif;
+    line-height: 1.4em;
+}
+
+#header {
+    padding-bottom: 0px;
+}
+
+#header h1 {
+    line-height: 1.4em;
+}
+
+#header ul li a {
+    padding-bottom: 0px;
+}

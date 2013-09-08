@@ -6,6 +6,7 @@ Projects
 <br>
 
 These are only some of the projects I've done, as a lot of the code I've written is scattered across a number of computers/Linux distros. There is also a lot of code I've written that wouldn't qualify as a releasable "project", but more of a proof of concept to learn how different technologies/frameworks work. I'll try to post about these on my blog.
+<br>
 
 #### [Motion Controlled Tetris](/projects/motion-controlled-tetris/)
 
