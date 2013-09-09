@@ -8,7 +8,7 @@ ssh_user       = "gsingh93@gulshansingh.com"
 ssh_port       = "2222"
 document_root  = "~/www/"
 rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
+rsync_args     = "--exclude '.*'"  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
@@ -252,7 +252,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     Bundler.with_clean_env { system "git pull" }
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
