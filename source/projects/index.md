@@ -80,7 +80,7 @@ A keylogger I wrote in C for Linux. Logkeys stopped working in Ubuntu 13.04, and
 
 #### [CC Snake](/projects/cc-snake/)
 
-My team's hack for the MHacks 2012. It's a multi-screen, networked, snake game, so when the snake goes of one player's screen, it seamlessly continues on the other player's computer screen.
+My team's hack for the MHacks 2013. It's a multi-screen, networked, snake game, so when the snake goes of one player's screen, it seamlessly continues on the other player's computer screen.
 <br>
 
 #### [WHISPER, MANES, and Shout](/projects/whisper-manes-shout/)

@@ -8,7 +8,7 @@ sharing: true
 
 I wrote this basic operating system back in high school and it was honestly one of the most interesting and educational things I've ever written. I'm a much better programmer now, so I'm going to be revisiting this project soon in the hopes of making it into a fully functional OS and creating a tutorial on how to do it. For those of you who can't wait, you can find a lot of good information at OSDev. The OS functionality is very simple: there's no filesystem, and the only commands are help and cls (clear screen). Don't let that fool you though; taking a look at the code will assure you this was no easy project.
 
-![OS Screenshot](/images/os-screenshot.png)
+{% img center /assets/images/os-screenshot.png OS Screenshot %}
 
 ### How To Run
 
