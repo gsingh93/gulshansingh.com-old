@@ -21,8 +21,13 @@
 //$sidebar-width-wide: 300px;
 
 body {
-    font-family: 'Century Gothic', 'Helvetica', sans-serif;
-    line-height: 1.4em;
+    font-family: 'Georgia', serif;
+    line-height: 1.6em;
+    font-size: 20px;
+}
+
+.inner {
+    width: 700px;
 }
 
 #header {
@@ -43,5 +48,5 @@ body {
 }
 
 article .entry-content {
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
