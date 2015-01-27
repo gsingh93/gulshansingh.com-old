@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'WebAkharSlim';
+    src: url('webakharslim.ttf');
+}
+
+body {
+  background-color: #F8F8F8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 15px;
+}
+
+#content {
+  text-align: center;
+}
+
+#content-inner {
+  width: 850px;
+  margin: 0 auto;
+}
+
+#content-wordsearch {
+  height: 500px;
+  width: 500px;
+}
+
+.left {
+  float: left;
+  margin: 0 auto;
+}
+
+#wordsearch {
+  background: white;
+  border: solid 1px;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+#words {
+  text-align: left;
+}
+
+#form {
+  text-align: left;
+  float: left;
+  padding: 20px;
+}
+
+.letter {
+  height: 50px;
+  width: 50px;
+  background: white;
+  border: 0px;
+  font-size: 20px;
+}
+
+.punjabi * {
+  font-family: WebAkharSlim;
+}
